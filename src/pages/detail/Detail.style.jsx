@@ -8,8 +8,9 @@ const DetailDiv = styled.div`
     margin: 1rem;
     border: 1px solid white;
     border-radius: 5px;
-    background-color:  rgb(206, 230, 243);;
-    color: rgb(5, 5, 5);
+    /* background-color:  rgba(206, 230, 243, 0.719); */
+    background-color:  ${({theme})=>theme.colors.detailBgColor};
+    color:${({theme})=>theme.colors.searchTextColor};
     width: 80%;
     h1{
         margin: 25px;

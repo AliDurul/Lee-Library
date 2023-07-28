@@ -57,9 +57,10 @@ export const MenuLink = styled(NavLink)`
     transition: all 0.2s ease-in 0s;
     font-size: 1.5rem;
     font-weight:bold;
-    :hover{
+
+    &:hover{
       color: ${({ theme }) => theme.colors.navTextHoverColor};
-      text-shadow: 0px 0px 2px #152424
+      text-shadow: 1px 1px 2px #152424
     }
     &.active {
     text-decoration: underline;

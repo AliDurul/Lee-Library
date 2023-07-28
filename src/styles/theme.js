@@ -11,7 +11,8 @@ const lightTheme = {
     searchButonBgColor:"rgba(233, 179, 132, 0.458)",
     cardBgColor:"rgba(255, 255, 255, 0.709)",
     cardButonBgColor:"rgb(206, 230, 243)",
-    cardButonTextColor:" rgb(5, 5, 5)"
+    cardButonTextColor:" rgb(5, 5, 5)",
+    detailBgColor:"rgba(244, 242, 222,0.6)"
   },
   screens: {
     lg: "990px",
@@ -29,7 +30,8 @@ const darkTheme = {
     searchButonBgColor:"rgb(222, 242, 222)",
     cardBgColor:"rgba(244, 242, 222,0.6)",
     cardButonBgColor:"rgba(44, 44, 44, 0.79)",
-    cardButonTextColor:"white"
+    cardButonTextColor:"white",
+    detailBgColor:"rgba(44, 44, 44, 0.79)"
 
   },
   screens: {
