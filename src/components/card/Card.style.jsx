@@ -23,7 +23,8 @@ export const CardDiv = styled.div`
     width: 20rem;
     max-width: 20rem;
     max-height: 20rem;
-    background: rgba(255, 255, 255, 0.709);
+    transition: all 1s;
+    background: ${({theme})=>theme.colors.cardBgColor};
     /* background-color:rgba(223, 168, 120,0.6); */
     padding: 0.5rem;
     border-radius: 1rem;
@@ -48,8 +49,8 @@ button{
     margin: 0.5rem;
     border-radius: 3px;
     cursor: pointer;
-    background: rgb(206, 230, 243);
-    color: rgb(5, 5, 5);
+    background: ${({theme})=>theme.colors.cardButonBgColor};
+    color:${({theme})=>theme.colors.cardButonTextColor};
     transition: all 0.3s;
     
     &:hover{

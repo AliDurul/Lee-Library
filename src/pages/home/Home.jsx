@@ -30,13 +30,13 @@ const Home = () => {
     return (
         <FlexDiv  >
             <DivForm>
-                <FormStyled action="" onSubmit={handleSubmit} >
                     <h2>BOOKS OR MAGAZINES</h2>
+                <FormStyled action="" onSubmit={handleSubmit} >
                     <input type="search" placeholder='Search..' value={query} onChange={(e) => setQuery(e.target.value)} />
                     <select name="type" id="type" onChange={(e) => setOption(e.target.value)}>
-                        <option value="all">ALL</option>
-                        <option value="books">BOOKS</option>
-                        <option value="magazines">MAGAZINES</option>
+                        <option value="all">All</option>
+                        <option value="books">Books</option>
+                        <option value="magazines">Magazines</option>
                     </select>
 
                     <button type='submit'>SEARCH</button>

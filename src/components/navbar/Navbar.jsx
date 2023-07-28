@@ -1,28 +1,31 @@
-import React, { useContext } from 'react'
-import Navstyled, { LinkStyled, LinkDiv } from './Navbar.style'
-import { useNavigate } from 'react-router-dom'
+import React, { useContext, useState } from 'react'
+import Navstyled, {Logo, HamburgerIcon, Menu, MenuLink } from './Navbar.style'
 import AuthContext from '../../context/AuthContext'
+import { menuIcon } from '../../styles/icons'
 
 
 const Navbar = () => {
-  const navigate = useNavigate()
 
-  const { user,setUser } = useContext(AuthContext)
-
+  const { user, setUser } = useContext(AuthContext)
+const [toggle, setToggle] = useState(true)
 
   return (
     <Navstyled >
-      <div onClick={() => navigate("/")}>
-        <h1 >Lee Library</h1>
-      </div>
-      <LinkDiv>
-        <LinkStyled to="/" >HOME</LinkStyled>
-        <LinkStyled to="about">ABOUT</LinkStyled>
-        {!user && <LinkStyled to="register">REGISTER</LinkStyled>}
+      <Logo to={"/"}>
+        Lee Library
+      </Logo>
+      <HamburgerIcon  onClick={()=>setToggle(!toggle)}>
+        {menuIcon}
+      </HamburgerIcon>
+
+      <Menu showmenu={toggle}>
+        <MenuLink onClick={()=>setToggle(false)}to="/" >HOME</MenuLink>
+        <MenuLink onClick={()=>setToggle(false)} to="about">ABOUT</MenuLink>
+        {!user && <MenuLink onClick={()=>setToggle(false)} to="register">REGISTER</MenuLink>}
         {
-          user ? <LinkStyled to="login" onClick={()=>setUser("")}>LOGOUT</LinkStyled> : <LinkStyled to="login">LOGIN</LinkStyled>
+          user ? <MenuLink  to="login" onClick={() => setUser("")}>LOGOUT</MenuLink> : <MenuLink onClick={()=>setToggle(false)} to="login">LOGIN</MenuLink>
         }
-      </LinkDiv>
+      </Menu>
     </Navstyled>
   )
 }

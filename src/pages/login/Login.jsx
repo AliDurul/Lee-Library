@@ -1,6 +1,5 @@
 import React, { useContext } from 'react'
-import { LoginFlexDiv } from '../../styles/Flex'
-import {  FormLogin } from './Login.style'
+import {  FormLogin, LoginFlexDiv } from './Login.style'
 import AuthContext from '../../context/AuthContext'
 
 import { useNavigate } from 'react-router-dom'
@@ -19,7 +18,7 @@ const navigate = useNavigate()
     <LoginFlexDiv pic="https://picsum.photos/1600/900">
  
         <FormLogin onSubmit={handlesubmit}>
-          <h1>lOGIN HERE</h1>
+          <h1>LOGIN HERE</h1>
           <input type="text" placeholder='USERNAME' required  />
           <input type="password" placeholder='PASSWORD' required/>
           <button type='submit'>LOGIN</button>
