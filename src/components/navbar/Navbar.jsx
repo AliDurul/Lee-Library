@@ -11,7 +11,7 @@ const Navbar = () => {
 
 
   return (
-    <Navstyled theme>
+    <Navstyled >
       <div onClick={() => navigate("/")}>
         <h1 >Lee Library</h1>
       </div>

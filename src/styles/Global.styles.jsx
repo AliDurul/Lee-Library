@@ -10,7 +10,6 @@ export const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
         font-style: italic;
         font-family: 'Shantell Sans', cursive;
-        
     }
 
     body{
