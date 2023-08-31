@@ -1,47 +1,56 @@
 <div id="user-content-toc">
   <ul align="left">
-    <summary><h1 style="display: inline-block">React-Redux Library App</h1></summary>
+    <summary><h1 style="display: inline-block">Lee Library App</h1></summary>
   </ul>
 </div>
 
 <table>
    <thead>
         <tr>
-            <th>What's used in this app?</th>
+            <th>What's used in this app ?</th>
+            <th>How to run ?</th>
             <th>Author</th>
         </tr>
     </thead>
   <tbody>
   <tr>
-    <td> <li> Bootstrap  <li> json-server <li>redux, react-redux <li>react-router-dom</td>
-    <td> <li> <a href="https://github.com/AliDurul">Take a look at my other projects</a> <li> <a href="https://www.linkedin.com/in/ali-durul/">Visit me on Linkedin</a>
+    <td> <li> React  <li> Context-Api <li> Styled Component CSS <li>React-router-dom <li>Api-Server  </td>
+    <td>  <h4>Once you clone the project</h4>  
+      
+ 1) run  `pnpm install`  or `yarn install` for node modules <br> 
+ 2) run `pnpm run dev` or `yarn run dev` for open development stage <br>
+    
+   </td>
+    <td> <li> <a href="https://github.com/AliDurul">Take a look at my other projects</a> <li> <a href="https://www.linkedin.com/in/ali-durul/">Visit me on Linkedin</a> 
   </tr>
   <tr>
-    <td colspan="2"> <p>What is this project about ?</p>
-      in this project I got categories and products from api and listed them on home page. When clicking on the products, the detail page is navgate with the data. The create post button goes to the page where we       created and submitted our new post. You can also filter products by category.
+    <td colspan="3"><h3>What is this project about ?</h3> 
+<p>
+Data fetched from the Google Books API and present it on website, categorized for easy access. Users can explore various book categories and search for specific titles. Search results provide general book information and summaries. To access more content and read book summaries, users need to log in, enabling personalized recommendations and a richer experience. Our goal is to provide book enthusiasts with a user-friendly platform to discover a wide range of books and effortlessly find their desired reads.
+</p>
     </td>
   </tr>
       </tbody>
 </table>
 
+
+
+
 <div id="user-content-toc">
   <ul align="left">
-    <summary><h4 style="display: inline-block">How to run ?</h4></summary>
+    <summary><h2>How does my project look</h2></summary>
   </ul>
 </div>
 
-In the project directory, you can run:
-
-#### `npm install` yada pnpm run dev
-
-<h2>How does my project look</h2>
-
-[Live Link](https://github.com/kamilarici/tw8-2-react-comp)
+[Live Link](https://lee-library.vercel.app)
 
 ![LeeLibrirary](https://github.com/AliDurul/Lee-Library/assets/80897590/76766085-6395-4bbd-a285-6acbaab5bedc)
 
-## Feedback and Collaboration
-Thank you for visiting my projects! I'm thrilled to have you here, and I hope you find it interesting and helpful.
+<div id="user-content-toc">
+  <ul align="left">
+    <summary><h2>Feedback and Collaboration</h2></summary>
+  </ul>
+</div>
 
 I value your feedback and suggestions. If you have any comments, questions, or ideas for improvement regarding this project or any of my other projects, please don't hesitate to reach out. I'm always open to collaboration and welcome the opportunity to work on exciting projects together.
 
