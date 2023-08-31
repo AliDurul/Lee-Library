@@ -51,7 +51,6 @@ Data fetched from the Google Books API and present it on website, categorized fo
     <summary><h2>Feedback and Collaboration</h2></summary>
   </ul>
 </div>
-
 I value your feedback and suggestions. If you have any comments, questions, or ideas for improvement regarding this project or any of my other projects, please don't hesitate to reach out. I'm always open to collaboration and welcome the opportunity to work on exciting projects together.
 
 Thank you for visiting my project. I hope you have a wonderful experience exploring it, and I look forward to connecting with you soon!
