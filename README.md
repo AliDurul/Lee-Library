@@ -17,8 +17,8 @@
     <td> <li> React  <li> Context-Api <li> Styled Component CSS <li>React-router-dom <li>Api-Server  </td>
     <td>  <h4>Once you clone the project</h4>  
       
- 1) run  `pnpm install`  or `yarn install` for node modules <br> 
- 2) run `pnpm run dev` or `yarn run dev` for open development stage <br>
+ 1) run  `pnpm install`  or `yarn install` for node modules
+ 2) run `pnpm run dev` or `yarn run dev` for open development stage
     
    </td>
     <td> <li> <a href="https://github.com/AliDurul">Take a look at my other projects</a> <li> <a href="https://www.linkedin.com/in/ali-durul/">Visit me on Linkedin</a> 
