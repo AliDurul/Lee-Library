@@ -56,4 +56,80 @@ I value your feedback and suggestions. If you have any comments, questions, or i
 Thank you for visiting my project. I hope you have a wonderful experience exploring it, and I look forward to connecting with you soon!
 
 
+## Project Skeleton
+```
+Lee Library (folder)
+|
+|-- public
+|   |-- index.html
+|   |-- manifest.json
+|   |-- robots.txt
+|
+|-- src
+|   |-- assets
+|   |   |-- about.png
+|   |   |-- book.jpg
+|   |   |-- books.jpg
+|   |   |-- const.png
+|   |   |-- library-gcaf06147c_1920.jpg
+|   |
+|   |-- components
+|   |   |-- card
+|   |   |   |-- Card.jsx
+|   |   |   |-- Card.style.jsx
+|   |   |
+|   |   |-- footer
+|   |   |   |-- Footer.jsx
+|   |   |   |-- Footer.style.jsx
+|   |   |
+|   |   |-- header
+|   |   |   |-- Header.jsx
+|   |   |   |-- Header.style.jsx
+|   |   |
+|   |   |-- navbar
+|   |   |   |-- Navbar.jsx
+|   |   |   |-- Navbar.style.jsx
+|   |
+|   |-- context
+|   |   |-- AuthContext.jsx
+|   |   |-- ThemeContext.jsx
+|   |
+|   |-- pages
+|   |   |-- about
+|   |   |   |-- About.jsx
+|   |   |   |-- About.style.jsx
+|   |   |
+|   |   |-- detail
+|   |   |   |-- Detail.jsx
+|   |   |   |-- Detail.style.jsx
+|   |   |
+|   |   |-- home
+|   |   |   |-- Home.jsx
+|   |   |   |-- Home.style.jsx
+|   |   |
+|   |   |-- login
+|   |   |   |-- Login.jsx
+|   |   |   |-- Login.style.jsx
+|   |   |
+|   |   |-- register
+|   |   |   |-- Register.jsx
+|   |   |   |-- Register.style.jsx
+|   |
+|   |-- router
+|   |   |-- AppRouter.jsx
+|   |   |-- PrivateRouter.jsx
+|   |
+|   |-- styles
+|   |   |-- Flex.jsx
+|   |   |-- Global.styles.jsx
+|   |   |-- icons.jsx
+|   |   |-- theme.js
+|   |
+|   |-- App.js
+|   |-- index.css
+|   |-- index.js
+|
+|-- .gitignore
+|-- README.md
+```
 
